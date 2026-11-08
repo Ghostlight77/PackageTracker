@@ -7,6 +7,8 @@ using namespace std;
 int main() {
     int numPackages = 0;
 
+    cout << "PACKAGE WEIGHT TRACKER\n----------------------\n\n";
+
     while (true) {
         cout << "How many packages? ";
         if (cin >> numPackages && numPackages > 0) {
